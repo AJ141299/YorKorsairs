@@ -1,3 +1,3 @@
-# AdamK-S.github.io
+# York Pirates! - Game
 
-Repository for Pirate Project
+This branch contains the main code for the York Pirates! ENG1 group project.
