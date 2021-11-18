@@ -1,3 +1,5 @@
-# AdamK-S.github.io
+# York Pirates! - Documentation
 
-Repository for Website
+This branch contains the website with the docuementation for the York Pirate! ENG1 group project.
+
+Link: https://adamk-s.github.io/
