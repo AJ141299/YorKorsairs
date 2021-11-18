@@ -1,5 +1,5 @@
-# York Pirates! - Documentation
+# York Pirates!
 
-This branch contains the website with the documentation for the York Pirate! ENG1 group project.
+This repo contains the website which accompanies the documentation for the York Pirate! Team 10 ENG1 group project.
 
 Link: https://adamk-s.github.io/
