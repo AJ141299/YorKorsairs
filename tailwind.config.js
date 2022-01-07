@@ -2,8 +2,12 @@ module.exports = {
   content: ["./*.{html,js}"],
   theme: {
     extend: {
-      font: {
+      fontFamily: {
         'calibri': 'Calibri',
+        'helvetica': 'Helvetica',
+        'georgia': 'Georgia',
+        'cambria': 'Cambria',
+        'optima': 'Optima',
       },
       colors: {
         'brown-bg': '#EADCCD',

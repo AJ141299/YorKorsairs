@@ -423,6 +423,13 @@ Ensure the default browser behavior of the `hidden` attribute.
   display: none;
 }
 
+*, ::before, ::after {
+  --tw-ring-offset-shadow: 0 0 #0000;
+  --tw-ring-shadow: 0 0 #0000;
+  --tw-shadow: 0 0 #0000;
+  --tw-shadow-colored: 0 0 #0000;
+}
+
 .m-auto {
   margin: auto;
 }
@@ -480,6 +487,12 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-left: calc(2rem * calc(1 - var(--tw-space-x-reverse)));
 }
 
+.space-x-20 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-x-reverse: 0;
+  margin-right: calc(5rem * var(--tw-space-x-reverse));
+  margin-left: calc(5rem * calc(1 - var(--tw-space-x-reverse)));
+}
+
 .rounded-full {
   border-radius: 9999px;
 }
@@ -516,6 +529,26 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .text-center {
   text-align: center;
+}
+
+.font-calibri {
+  font-family: Calibri;
+}
+
+.font-helvetica {
+  font-family: Helvetica;
+}
+
+.font-georgia {
+  font-family: Georgia;
+}
+
+.font-cambria {
+  font-family: Cambria;
+}
+
+.font-optima {
+  font-family: Optima;
 }
 
 .text-lg {
@@ -555,6 +588,11 @@ Ensure the default browser behavior of the `hidden` attribute.
   color: rgb(100 71 41 / var(--tw-text-opacity));
 }
 
+.shadow-orange-400\/50 {
+  --tw-shadow-color: rgb(251 146 60 / 0.5);
+  --tw-shadow: var(--tw-shadow-colored);
+}
+
 .transition {
   transition-property: color, background-color, border-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-text-decoration-color, -webkit-backdrop-filter;
   transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
@@ -583,4 +621,10 @@ body {
 .hover\:text-brown-hover:hover {
   --tw-text-opacity: 1;
   color: rgb(173 135 97 / var(--tw-text-opacity));
+}
+
+.hover\:shadow-lg:hover {
+  --tw-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+  --tw-shadow-colored: 0 10px 15px -3px var(--tw-shadow-color), 0 4px 6px -4px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
