@@ -449,6 +449,22 @@ Ensure the default browser behavior of the `hidden` attribute.
   display: grid;
 }
 
+.w-auto {
+  width: auto;
+}
+
+.max-w-sm {
+  max-width: 24rem;
+}
+
+.max-w-xl {
+  max-width: 36rem;
+}
+
+.max-w-4xl {
+  max-width: 56rem;
+}
+
 @-webkit-keyframes spin {
   to {
     transform: rotate(360deg);
@@ -542,6 +558,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .border-4 {
   border-width: 4px;
+}
+
+.border-8 {
+  border-width: 8px;
 }
 
 .border-b-\[3px\] {
