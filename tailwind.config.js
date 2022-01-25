@@ -20,7 +20,7 @@ module.exports = {
         'hover': '#74bacc',
         'dark-text': '#2b5c77',
         'light-text': '#dae6fa',
-        'accordion-bg': '#abc7d9',
+        'accordion-bg': '#b6cad9',
         'accordion-border': '#2b5c77',
 
       },
