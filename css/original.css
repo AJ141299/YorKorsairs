@@ -4,4 +4,30 @@
 
 body {
     box-sizing: content-box;
+    font-display: optional;
+
+}
+/* disables highlighting images */
+img {
+    -khtml-user-select: none;
+    -o-user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+/* disables highlighting question text */
+.question {
+    -webkit-touch-callout: none; /* iOS Safari */
+      -webkit-user-select: none; /* Safari */
+       -khtml-user-select: none; /* Konqueror HTML */
+         -moz-user-select: none; /* Old versions of Firefox */
+          -ms-user-select: none; /* Internet Explorer/Edge */
+              user-select: none; /* Non-prefixed version, currently
+                                    supported by Chrome, Edge, Opera and Firefox */
+  }
+
+/* prevents content shifting when vertical scroll bar appears/disappears */
+html {
+    overflow-y: overlay;
 }
