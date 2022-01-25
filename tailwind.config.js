@@ -12,9 +12,9 @@ module.exports = {
       colors: {
         'bg': '#bcd1e0',
         'footer-bg': '#bcd1e0',
-        'btn-bg': '#CD853F',
-        'btn-hover': '#d6995c',
-        'btn-bg-light': '#615240',
+        'btn-bg': '#bf9039',
+        'btn-hover': '#d9a74a',
+        'btn-bg-light': '#d9a74a',
         'nav': '#2b5c77',
         'nav-underline': '#2b5c77',
         'hover': '#74bacc',
@@ -22,6 +22,8 @@ module.exports = {
         'light-text': '#dae6fa',
         'accordion-bg': '#a1bfd1',
         'accordion-border': '#2b5c77',
+        'dropdown-bg': '#d8e6f2',
+        'dropdown-selected-bg': '#c8dbe8',
 
       },
       animation: {

@@ -14,10 +14,12 @@
 			<div class="flex space-x-8 text-xl">
 				<!-- logo -->
 				<div class="m-auto animate-wheel-spin">
-					<img src="/assets/images/Pirate-wheel-4.png" alt="Pirate Ship" width="65" />
+					<img src="/assets/images/Pirate-wheel.png" alt="Pirate Ship" width="65" />
 				</div>
 
 				<a href="/" class="border-b-[3px] border-nav-underline m-auto">Home</a>
+
+				<!-- organisation dropdown -->
 				<div class="dropdown my-auto relative">
 					<div class="dropdown-activator flex space-x-1 cursor-pointer items-center">
 						<p>Organisation</p>
@@ -25,14 +27,16 @@
 							<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
 						</svg>
 					</div>
-					<div class="dropdown-menu opacity-0 absolute transition bg-white rounded-md shadow w-[100%] px-2 py-1 mt-1 -translate-y-2">Menu</div>
+					<div class="dropdown-menu text-base scale-0 absolute transition bg-dropdown-bg rounded-md shadow w-[110%] left-[-5%] px-2 py-2 mt-1 flex flex-col -translate-y-6">
+						<a href="/gantt_charts.html" class="hover:bg-bg rounded p-1 transition ease-in-out">Gantt Charts</a>
+						<a href="/assets/sample.pdf" class="hover:bg-bg rounded p-1 transition ease-in-out">Logbook</a>
+					</div>
 				</div>
-				<!-- <a href="/gantt_charts.html" class="border-b-[3px] border-transparent hover:border-nav-underline transition ease-out m-auto">Organisation</a> -->
 			</div>
 
 			<!-- download btn -->
 			<div class="content-center grid">
-				<button class="font-normal bg-btn-bg hover:bg-btn-hover transition ease-out duration-200 px-6 py-1 rounded-full text-gray-100">Download</button>
+				<button class="font-normal bg-btn-bg border border-btn-bg-light hover:bg-btn-hover transition ease-out duration-200 px-6 py-1 rounded-full text-gray-100">Download</button>
 			</div>
 		</nav>
 
@@ -53,7 +57,7 @@
 		<!-- fixer for css classes used in js files but not compiled by tailwind-->
 		<!-- when JIT watch mode is run again, it checks html file and removes all the classes from styles.css that doesn't exist in the html file even tho they exist in the js files hence it breaks stuff -->
 		<!-- add the classes used in js files here to fix -->
-		<div class="hidden rotate-180"></div>
+		<div class="hidden rotate-180 scale-0"></div>
 
 		<script src="js/dropdown.js"></script>
 	</body>
