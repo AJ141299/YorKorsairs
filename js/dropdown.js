@@ -8,9 +8,8 @@ class dropdownActivator {
     init() {
         this.dropdownActivator.addEventListener("click", () => {
             this.icon.classList.toggle("rotate-180");
-            this.menu.classList.toggle("scale-0");
-            this.menu.classList.toggle("scale-100");
-            this.menu.classList.toggle("-translate-y-5");
+            this.menu.classList.toggle("opacity-0");
+            this.menu.classList.toggle("-translate-y-2");
         });
     }
 }

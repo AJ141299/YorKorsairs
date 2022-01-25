@@ -16,8 +16,8 @@ img {
     user-select: none;
 }
 
-/* disables highlighting question text */
-.question {
+/* disables highlighting question and dropdown texts */
+.question, .dropdown {
     -webkit-touch-callout: none; /* iOS Safari */
       -webkit-user-select: none; /* Safari */
        -khtml-user-select: none; /* Konqueror HTML */
@@ -25,7 +25,9 @@ img {
           -ms-user-select: none; /* Internet Explorer/Edge */
               user-select: none; /* Non-prefixed version, currently
                                     supported by Chrome, Edge, Opera and Firefox */
-  }
+}
+
+
 
 /* prevents content shifting when vertical scroll bar appears/disappears */
 html {
