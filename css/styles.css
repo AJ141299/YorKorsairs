@@ -627,7 +627,7 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .bg-accordion-bg {
   --tw-bg-opacity: 1;
-  background-color: rgb(182 202 217 / var(--tw-bg-opacity));
+  background-color: rgb(161 191 209 / var(--tw-bg-opacity));
 }
 
 .bg-footer-bg {
