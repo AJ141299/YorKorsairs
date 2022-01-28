@@ -32,8 +32,19 @@
 					</div>
 				</div>
 
-				<a href="" class="border-b-[3px] border-transparent hover:border-nav-underline transition ease-out m-auto">Deliverables</a>
-				<a href="" class="border-b-[3px] border-transparent hover:border-nav-underline transition ease-out m-auto">Versions</a>
+				<!-- deliverables dropdown -->
+				<div class="dropdown my-auto relative">
+					<div class="dropdown-activator flex space-x-1 cursor-pointer items-center">
+						<p>Deliverables</p>
+						<svg xmlns="http://www.w3.org/2000/svg" class="dropdown-icon h-6 w-6 transition" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+							<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+						</svg>
+					</div>
+					<div class="dropdown-menu text-base scale-0 absolute transition bg-dropdown-bg rounded-md shadow w-[110%] left-[-5%] px-2 py-2 mt-1 flex flex-col -translate-y-6">
+						<a href="" class="hover:bg-accordion-bg rounded p-1 transition ease-in-out">Deliverable 1</a>
+						<a href="" class="hover:bg-accordion-bg rounded p-1 transition ease-in-out">Deliverable 2</a>
+					</div>
+				</div>
 			</div>
 
 			<!-- download btn -->
